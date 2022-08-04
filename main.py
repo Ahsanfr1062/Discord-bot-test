@@ -27,6 +27,6 @@ for filename in os.listdir("./cogs"):
 if __name__ == "__main__":
     for extension in initial_extension:
         bot.load_extension(extension)
-print("this has been execute too")
+print("this hs been execute too")
 
 bot.run(os.environ['DISCORD_TOKEN'])
